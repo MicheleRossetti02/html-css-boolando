@@ -15,7 +15,12 @@ header{
     /* position: relative; */
    
 }
-
+.symbol_1{
+    height: 12px;
+    margin-top: 2px !important;
+    color: white;
+    background-color: white;
+}
 .row{
     
     display: flex;
