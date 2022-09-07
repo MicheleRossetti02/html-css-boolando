@@ -7,16 +7,17 @@ box-sizing: border-box;
 header{
     background-color: #FF6900;
     margin: 0 auto;
-    height: 66px;
 }
 .conteiner{
     width: 80%;
     margin: 0 auto;
     padding: 1rem;
-    position: relative;
+    /* position: relative; */
    
 }
+
 .row{
+    
     display: flex;
     flex-wrap: wrap;
 
@@ -51,12 +52,15 @@ margin: 0 1rem;
 
 }
 .symbol{
+    color: white;
+    background-color: white;
     height: 14px;
     margin-top: 2px !important;
 }
 /* #endheader zalando */
 
 .shop_row{
+    margin-top: 2rem;
     display: flex;
     flex-wrap: wrap;
     position: relative;
@@ -65,18 +69,95 @@ margin: 0 1rem;
 .prodotto_1{
     width: calc(100% /3);
     position: relative;
+
+}
+/* .articolo_1:hover{
+    display: none;
+} */
+.articolo{
+    height: 400px;
+position: relative;    
+
 }
 .articolo{
     height: 400px;
-
+margin-bottom: 4rem;
+}
+.prodotto_1> .heart{
+    position: absolute;
+    top: 5px;
+    right: 46px;
+}
+.heart{     
+    padding: 5px;
+    margin-top: 5px;
+    background-color: white;   
 }
 .prodotto_1 > .sconto{
     position: absolute;
     top: 350px;
-    right: 284px;
+    right: 295px;
+    font-size: 0.8rem;
+}
+.sconto{
+    color: white;
+    background-color: #FF0000;
 }
 .prodotto_1 > .sostenibilità{
     position: absolute;
     top: 350px;
-    right: 200px;
+    right: 227px;
+    font-size: 0.8rem;
+
+}
+.sostenibilità{
+    color: white;
+    background-color: #008000;
+}
+.sostenibilità_only{
+    right: 245px;
+    color: white;
+    background-color: #008000;
+    position: absolute;
+    top: 350px;
+}
+.prodotto_1 > .decription{
+    position: absolute;
+    top: 400px;
+    right: 290px;
+    font-size: 0.8rem;
+}
+
+.decription{
+    /* margin-bottom: 5rem;
+
+} */
+}
+footer{
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+}
+.col_4{
+    
+    width: calc((100% / 3) );
+    display: flex;
+    justify-content: start;
+    font-size: 10px;
+    flex-wrap: wrap;
+}
+.footer_info{
+    font-size: 1rem;
+}
+h6{
+font-size: 1rem;
+margin-left: 150px !important;
+}
+.col_6{
+    width: calc((100% / 3) );
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: end;
+
 }
