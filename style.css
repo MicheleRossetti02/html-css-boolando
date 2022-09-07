@@ -180,3 +180,13 @@ margin-left: 150px !important;
     justify-content: end;
 
 }
+.articolo_1{
+    height: 400px;
+position: absolute;
+left: 0px;
+
+}
+
+.articolo:hover{
+    display: none;
+}
