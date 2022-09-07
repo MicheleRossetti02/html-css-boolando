@@ -124,14 +124,33 @@ margin-bottom: 4rem;
 .prodotto_1 > .decription{
     position: absolute;
     top: 400px;
-    right: 290px;
-    font-size: 0.8rem;
+    right: 21px;
+    font-size: 0.7rem;
+    width: 300px;
 }
 
-.decription{
-    /* margin-bottom: 5rem;
+.prodotto_1 > .decription_1{
+    position: absolute;
+    top: 414px;
+    right: 22px;
+    font-size: 0.8rem;
+    width: 300px;
+}
+.prodotto_1 > .price{
+    position: absolute;
+    top: 430px;
+    right: 122px;
+    font-size: 0.8rem;
+    width: 200px;
+}
 
-} */
+strong{
+    color: red;
+}
+
+p{
+    display: inline;
+    text-decoration: line-through;
 }
 footer{
     background-color: black;
