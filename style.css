@@ -3,7 +3,7 @@
     padding: 0;
 box-sizing: border-box;
 }
-
+/* #header zalando */
 header{
     background-color: #FF6900;
     margin: 0 auto;
@@ -12,8 +12,8 @@ header{
 .conteiner{
     width: 80%;
     margin: 0 auto;
-    height: 66px;
     padding: 1rem;
+    position: relative;
    
 }
 .row{
@@ -53,4 +53,30 @@ margin: 0 1rem;
 .symbol{
     height: 14px;
     margin-top: 2px !important;
+}
+/* #endheader zalando */
+
+.shop_row{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+
+}
+.prodotto_1{
+    width: calc(100% /3);
+    position: relative;
+}
+.articolo{
+    height: 400px;
+
+}
+.prodotto_1 > .sconto{
+    position: absolute;
+    top: 350px;
+    right: 284px;
+}
+.prodotto_1 > .sostenibilità{
+    position: absolute;
+    top: 350px;
+    right: 200px;
 }
